@@ -1,0 +1,64 @@
+/* .quadrado {
+    height: 300px;
+    opacity: 0;
+    transition: 1s;
+    width: 300px;    
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.com-bordas {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.visivel {
+    opacity: 1;
+}
+
+img{
+    opacity: 0;
+    transition: 1s;
+}
+
+.destaque{
+    opacity: 1;
+    transform: scale(1.1);
+} */
+
+/* ESTILIZAÇÃO MENU-HAMBURGUER       .quando clicar no botton aparecer o menu */
+.span{
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 1px 1px 1px 1px;
+    transition: 0.4s;   
+    width: 10px;
+}
+
+/* ESTILIZAÇÃO NAV */
+.nav-menu-hamburguer {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.4s;
+    display: none;
+    width: auto;
+}
+
+/* ESTILIZAÇÃO ÂNCORAS */
+.nav-menu-hamburguer a {
+    font-size: 5px;
+    justify-content: space-between;
+    text-decoration: none;
+}   
+
+/* TORNAR VISIVEL */
+.visivel{
+    display:flex;
+}
+
